@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.logo-cornr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    margin: 10px;
+    width: 4rem;
+}
+
+#banner {
+    background-color: #3363FF;
+    color: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.promo-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 60px;
+    color: yellow;
+}
+
+.fa {
+    color: yellow;
+}
+
+.promo-title2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.img-fluid {
+    margin-top: 50px;
+}
+
+.after_form {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+ul {
+    font-size: 19px;
+    margin: 0;
+    list-style: none;
+    font-family: 'OpenSans-Light';
+    font-weight: bold;
+}
+
+ul li {
+    position: relative;
+    padding: 4px 0;
+}
+
+.queries {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.btn {
+    width: 60%;
+    background-color: black !important;
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+input {
+    width: 70%;
+    border: 1px solid black;
+}
+
+.foot {
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.blob {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    width: 85%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.commingSoonTit {
+    font-size: 3rem;
+}
+
+.apple {
+    float: left;
+    width: 9%;
+    margin-top: 2px;
+}
+
+.buletin {
+    width: 3%;
+}
